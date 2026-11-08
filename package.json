@@ -1,6 +1,9 @@
 {
     "private": true,
     "type": "module",
+    "allowScripts": {
+        "esbuild": true
+    },
     "scripts": {
         "dev": "vite",
         "build": "vite build"
